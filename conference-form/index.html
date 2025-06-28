@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html dir="rtl">
+    <head>
+        <title>Conference Form</title>
+    </head>
+    <body>
+         <h1>التسجيل في مؤتمر رواد الويب 2025</h1> 
+        <br>
+        <form>
+            <fieldset>
+                <legend><h2>البيانات الشخصية</h2></legend>
+                <label for="name"><h4>الاسم</h4></label>
+                <input type="text" id="name" required>
+                <label for="email"><h4>البريد الالكتروني</h4></label>
+                <input type="email" id="email" required>
+                <label for="tel"><h4>رقم التليفون</h4></label>
+                <input type="tel" id="tel" required>
+
+                <h4>النوع</h4>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">ذكر</label> <br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">أنثى</label>
+            </fieldset>
+      
+            <fieldset>
+                <legend><h2>الأنشطة المفضلة</h2></legend>
+                <input type="checkbox" id="workshops" name="activities"
+                    value="workshops">
+                <label for="workshops">ورش العمل</label><br>
+                <input type="checkbox" id="talks" name="activities"
+                    value="talks">
+                <label for="talks">جلسات حوار</label> <br>
+                <input type="checkbox" id="networking" name="activities"
+                    value="networking">
+                <label for="networking">تعارف</label>
+            </fieldset>
+      
+            <fieldset>
+                <legend><h2>الدولة</h2></legend>
+                <select name="country">
+                    <option value>اختر الدولة</option>
+                    <option value="egypt">مصر</option>
+                    <option value="ksa">السعودية</option>
+                    <option value="uae">الامارات</option>
+                </select>
+            </fieldset>
+        </form>
+        <br>
+        <h3>ملاحظات إضافية</h3>
+        <textarea></textarea><br>
+        <input type="submit" value="إرسال">
+
+    </body>
+</html>
